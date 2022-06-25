@@ -1,0 +1,47 @@
+h1 {
+    text-align: center;
+}
+#conteiner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.boxstyle {
+    /* border: solid #000 1px; */
+    border-color: #000;
+    border-style: solid;
+    border-width: 1px;
+    margin: 10px;
+    flex-grow: 1;
+    flex-basis: 0;
+    
+}
+.title {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+h2 {
+    width: 100px;
+    height: 30px;
+    border: solid #000 1px;
+    text-align: center;
+    margin: 0 0;
+}
+p {
+    text-align: center;
+}
+#box3 {
+    width: 100%;
+    align-items: flex-end;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    #box3 {
+        flex-basis: 100%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .boxstyle {
+        flex-basis: 100%;
+    }
+}
