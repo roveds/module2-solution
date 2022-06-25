@@ -14,12 +14,21 @@ h1 {
     margin: 10px;
     flex-grow: 1;
     flex-basis: 0;
-    
+    background-color: #ffebcd;
 }
 .title {
     display: flex;
     justify-content: flex-end;
     align-items: flex-start;
+}
+#box1 .title h2{
+    background-color: red;
+}
+#box2 .title h2{
+    background-color: blue;
+}
+#box3 .title h2{
+    background-color: purple;
 }
 h2 {
     width: 100px;
